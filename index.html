@@ -66,7 +66,7 @@
   }
   .two-columns .column {
     width: 100%;
-    max-width: 295px;
+    max-width: 280px;
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -75,11 +75,11 @@
   }
   .three-columns .column {
     width: 100%;
-		max-width: 170px;
+		max-width: 200px;
 		display: inline-block;
 		vertical-align: top;
 		text-align: center;
-    margin: 6px;
+    padding: 10px;
   }
   .align-left {
     text-align: left;
@@ -92,6 +92,20 @@
     padding: 3px 9px;
   }
 </style>  
+<style type="text/css">
+  @media (max-width: 440px) {
+    .mq-nav-link {
+      font-size: .75rem !important;
+    }
+    .mq-link-divider {
+      font-size: .95rem !important;
+      margin: 0 5px !important;
+    }
+    .three-columns .column {
+      margin: 22px 0 !important;
+    }
+  }
+</style>
 </head>
 <body>
   <center class="wrapper">
@@ -116,19 +130,19 @@
           <table role="navigation" width="100%">
             <tr>
               <td style="background-color: #000; color: #fff; padding: 12px;">
-                <a href="dXRtX3NvdXJjZT1hY3MmdXRtX21lZGl1bT1lbWFpbCZ1dG1fZW1haWw9d2FkZWNlZHdhcmRzJTQwZ21haWwuY29tJnV0bV9jYW1wYWlnbj1OZXdzMF9BU1lfMjMwNjAyXzAwMDAwMF9TTFYxU0VHMDZNJmVpZD13YWRlY2Vkd2FyZHMlNDBnbWFpbC5jb20mZWlkPXdhZGVjZWR3YXJkcyU0MGdtYWlsLmNvbQ" target="_blank">
+                <a href="dXRtX3NvdXJjZT1hY3MmdXRtX21lZGl1bT1lbWFpbCZ1dG1fZW1haWw9d2FkZWNlZHdhcmRzJTQwZ21haWwuY29tJnV0bV9jYW1wYWlnbj1OZXdzMF9BU1lfMjMwNjAyXzAwMDAwMF9TTFYxU0VHMDZNJmVpZD13YWRlY2Vkd2FyZHMlNDBnbWFpbC5jb20mZWlkPXdhZGVjZWR3YXJkcyU0MGdtYWlsLmNvbQ" target="_blank" class="mq-nav-link">
                   NEWS
                 </a>
-                <span style="font-size: 1.1rem; font-weight: bold; margin: 0 7px;">|</span>
-                <a href="https://www.astronomy.com/ask-astro/?utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank">
+                <span class="mq-link-divider" style="font-size: 1.1rem; font-weight: bold; margin: 0 7px;">|</span>
+                <a href="https://www.astronomy.com/ask-astro/?utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank" class="mq-nav-link">
                   ASK ASTRO
                 </a>
-                <span style="font-size: 1.1rem; font-weight: bold; margin: 0 7px;">|</span>
-                <a href="https://www.astronomy.com/observing/sky-this-week-for-august-5-to-august-14-2016/?utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank">
+                <span class="mq-link-divider" style="font-size: 1.1rem; font-weight: bold; margin: 0 7px;">|</span>
+                <a href="https://www.astronomy.com/observing/sky-this-week-for-august-5-to-august-14-2016/?utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank" class="mq-nav-link">
                   SKY THIS WEEK
                 </a>
-                <span style="font-size: 1.1rem; font-weight: bold; margin: 0 7px;">|</span>
-                <a href="https://www.astronomy.com/magazine/?utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank">
+                <span class="mq-link-divider" style="font-size: 1.1rem; font-weight: bold; margin: 0 7px;">|</span>
+                <a href="https://www.astronomy.com/magazine/?utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank" class="mq-nav-link">
                   MAGAZINE
                 </a>
               </td>
@@ -170,7 +184,7 @@
           </table>
           <table role="presentation" width="100%">
             <tr>
-              <td class="align-left" style="padding: 10px 8px 25px; border-bottom: 1px solid #000;">
+              <td class="align-left" style="padding: 10px 8px 25px;">
                 <p class="heading-category">Observing</p>
                 <a href="https://www.astronomy.com/observing/bright-supernova-now-in-m101/?e=dXRtX3NvdXJjZT1hY3MmdXRtX21lZGl1bT1lbWFpbCZ1dG1fZW1haWw9d2FkZWNlZHdhcmRzJTQwZ21haWwuY29tJnV0bV9jYW1wYWlnbj1OZXdzMF9BU1lfMjMwNjAyXzAwMDAwMF9TTFYxU0VHMDZNJmVpZD13YWRlY2Vkd2FyZHMlNDBnbWFpbC5jb20mZWlkPXdhZGVjZWR3YXJkcyU0MGdtYWlsLmNvbQ" target="_blank" class="heading">Bright, young supernova now visible in M101</a>
                 <p>Take out your small scope tonight to view the aftermath of a massive star's death.</p>
@@ -227,18 +241,18 @@
         <td>
           <table role="presentation" width="100%">
             <tr>
-              <td class="align-left" style="border-top: 1px solid #000;; padding: 14px 7px;">
+              <td class="align-left" style="padding: 14px 7px;">
                 <p style="font-size: 1rem; text-transform: uppercase;"><span style="color: #aaaaaa;">Sponsored By:</span> Tiger Group</p>
                 <a href="https://soldtiger.com/sales/ip-multi-million-dollar-inventory-of-telescopes-cameras-binoculars-accessories/" target="_blank">
                   <img src="https://i.ibb.co/K9pch76/tiger-banner.jpg" alt="Promo banner for soldtiger.com" style="margin: 20px 0;">
                 </a>
                 <p class="heading">Online Auction June 13 - Telescopes, Cameras, and more!</p>
-                <p style="line-height: 2;">
+                <p style="line-height: 2.2;">
                   Multi-million dollar inventory of telescopes, cameras, binoculars, accessories & IP.
                   <br>
                   Sale offering of large telescope & optics retailer.
                   <br>
-                  <span style="font-weight: bold;">Timed Online Auction - Bid Now!</span> 
+                  <span style="font-weight: 900; text-transform: uppercase;">Timed Online Auction - Bid Now!</span> 
                   <br>
                   Bidding Closes Tue, Jun 13 at 10:30am (PT) Carlsbad, CA Well Established (since 1947) Retailer of Entry Level to Professional Grade Telescopes, Cameras, Mounts, Filters & Accessories.
                 </p>
@@ -271,7 +285,7 @@
 
       <tr>
         <td>
-          <table role="presentation" width="100%" style="padding: 18px 0; border-top: 1px solid #000;">
+          <table role="presentation" width="100%" style="padding: 18px 0;">
             <tr>
               <td>
                 <a href="https://www.astronomy.com/science/astronomical-hoaxes-throughout-the-ages/?utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank">
@@ -292,7 +306,7 @@
 
       <tr>
         <td>
-          <table role="presentation" width="100%" style="padding: 18px 0; border-top: 1px solid #000;">
+          <table role="presentation" width="100%" style="padding: 18px 0;">
             <tr>
               <td>
                 <a href="https://www.astronomy.com/science/ask-astro-how-fast-could-a-ship-reach-light-speed-without-crushing-its-human-occupants/?e=dXRtX3NvdXJjZT1hY3MmdXRtX21lZGl1bT1lbWFpbCZ1dG1fZW1haWw9d2FkZWNlZHdhcmRzJTQwZ21haWwuY29tJnV0bV9jYW1wYWlnbj1OZXdzMF9BU1lfMjMwNjAyXzAwMDAwMF9TTFYxU0VHMDZNJmVpZD13YWRlY2Vkd2FyZHMlNDBnbWFpbC5jb20mZWlkPXdhZGVjZWR3YXJkcyU0MGdtYWlsLmNvbQ" target="_blank">
@@ -313,19 +327,19 @@
 
       <tr>
         <td>
-          <table role="presentation" width="100%" style="padding: 18px 5px; border-top: 1px solid #000;">
+          <table role="presentation" width="100%" style="padding: 18px 5px;">
             <tr>
               <td>
-                <table>
+                <table role="presentation" width="100%">
                   <tr>
                     <td class="two-columns">
                       <table class="column">
                         <tr>
                           <td style="font-size: .8rem;">
                             <a href="https://www.astronomy.com/picture-of-the-day/photo/picture-of-the-day-41/?utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank">
-                              <img src="https://i.ibb.co/Rghq5q5/cluster.jpg" alt="photo of a globular cluster" height="160" width="100%" style="object-fit: cover;">
+                              <img src="https://i.ibb.co/Rghq5q5/cluster.jpg" alt="photo of a globular cluster" height="155" width="100%" style="object-fit: cover;">
                             </a>
-                            <span>Fernando Oliveira de Menezes from Jales, Brazil</span>
+                            <span>Fernando Oliveira de Menezes - Jales, Brazil</span>
                           </td>
                         </tr>
                         <tr>
@@ -377,9 +391,9 @@
           <table role="presentation" width="100%">
             <tr>
               <td>
-                <table>
+                <table role="presentation" width="100%">
                   <tr>
-                    <td class="three-columns" style="padding: 30px 12px;">
+                    <td class="three-columns" style="padding: 30px 0;">
                       <table class="column">
                         <tr>
                           <td>
@@ -410,6 +424,67 @@
                     </td>
                   </tr>
                 </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table role="presentation" width="100%" style="border-top: 3px solid #222; border-bottom: 3px solid #222; padding: 8px;">
+            <tr>
+              <td>
+                <table role="presentation" width="100%" style="border-top: 2px solid #000; border-bottom: 2px solid #000; padding: 8px;">
+                  <tr>
+                    <td class="two-columns">
+                      <table class="column">
+                        <tr>
+                          <td style="padding-left: 35px;">
+                            <a href="https://ssl.drgnetwork.com/flex/KMB/AYCHOICE/?key1=ACP19A1&key2=ADP19A1&e=dXRtX3NvdXJjZT1hY3MmdXRtX21lZGl1bT1lbWFpbCZ1dG1fZW1haWw9d2FkZWNlZHdhcmRzJTQwZ21haWwuY29tJnV0bV9jYW1wYWlnbj1OZXdzMF9BU1lfMjMwNjAyXzAwMDAwMF9TTFYxU0VHMDZNJmVpZD13YWRlY2Vkd2FyZHMlNDBnbWFpbC5jb20mZWlkPXdhZGVjZWR3YXJkcyU0MGdtYWlsLmNvbQ" target="_blank">
+                              <img src="https://i.ibb.co/595MW4W/magazine.jpg" alt="astronomy magazine advertisement" height="240">
+                            </a>
+                          </td>
+                        </tr>
+                      </table>
+                      <table class="column">
+                        <tr>
+                          <td class="align-left" style="font-size: 1rem; padding-left: 35px;">
+                            <a href="https://www.astronomy.com/contact/?utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank" style="display: block; margin: 4px">Contact Us</a>
+                            <a href="https://ssl.drgnetwork.com/ecom/kmb/app/live/subcustserv?pagemode=start&org=KMB&publ=AY&php=Y&utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank" style="display: block; margin: 4px">Subscription Customer Service</a>
+                            <a href="https://www.astronomy.com/?e=dXRtX3NvdXJjZT1hY3MmdXRtX21lZGl1bT1lbWFpbCZ1dG1fZW1haWw9d2FkZWNlZHdhcmRzJTQwZ21haWwuY29tJnV0bV9jYW1wYWlnbj1OZXdzMF9BU1lfMjMwNjAyXzAwMDAwMF9TTFYxU0VHMDZNJmVpZD13YWRlY2Vkd2FyZHMlNDBnbWFpbC5jb20mZWlkPXdhZGVjZWR3YXJkcyU0MGdtYWlsLmNvbQ" target="_blank" style="display: block; margin: 4px">Visit Our Website</a>
+                            <a href="https://www.facebook.com/AstronomyMagazine" target="_blank" style="display: block; margin: 4px">Like Us On Facebook</a>
+                            <a href="https://ssl.drgnetwork.com/ecom/kmb/app/live/subcustserv?pagemode=start&org=KMB&publ=AY&php=Y&e=dXRtX3NvdXJjZT1hY3MmdXRtX21lZGl1bT1lbWFpbCZ1dG1fZW1haWw9d2FkZWNlZHdhcmRzJTQwZ21haWwuY29tJnV0bV9jYW1wYWlnbj1OZXdzMF9BU1lfMjMwNjAyXzAwMDAwMF9TTFYxU0VHMDZNJmVpZD13YWRlY2Vkd2FyZHMlNDBnbWFpbC5jb20mZWlkPXdhZGVjZWR3YXJkcyU0MGdtYWlsLmNvbQ" target="_blank" style="display: block; margin: 4px">Renew Your Subscription</a>
+                            <a href="https://ssl.drgnetwork.com/flex/KMB/AYBASICGIF/?key1=XPP1BAN&utm_email=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com&eid=wadecedwards%40gmail.com" target="_blank" style="display: block; margin: 4px">Give a Gift</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <table role="presentation" width="100%">
+            <tr>
+              <td style="padding: 15px 4px;">
+                <a href="#" style="color: #1704be; font-size: .85rem; text-decoration: underline; margin: 0 10px;">Subscribe</a>
+                <a href="#" style="color: #1704be; font-size: .85rem; text-decoration: underline; margin: 0 10px;">Preferences</a>
+                <a href="#" style="color: #1704be; font-size: .85rem; text-decoration: underline; margin: 0 10px;">Customer Service</a>
+                <a href="#" style="color: #1704be; font-size: .85rem; text-decoration: underline; margin: 0 10px;">Privacy Policy</a>
+                <a href="#" style="color: #1704be; font-size: .85rem; text-decoration: underline; margin: 0 10px;">View in Browser</a>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 12px 5px;">
+                <p style="font-size: .75rem; color: #635b5b;">This message was sent to hireable_candidate@coolmail.com. <br>
+
+                  © 2023 Kalmbach Media Co. 21027 Crossroads Circle Waukesha, WI 53186</p>
               </td>
             </tr>
           </table>
